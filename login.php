@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Log In</title>
-    <link rel="shortcut icon" href="images/oneblood.png">
+
     
 </head>
 </head>
@@ -32,17 +32,18 @@
       
        <div class="inputfield">
           <label for="exampleInputEmail1">Email Address</label>
-          <input type="text" class="input" placeholder="Email" name="phone" required>
+          <input type="email" id="exampleInputEmail1" class="input" placeholder="Email" name="EMAIL" required>
        </div> 
        <div class="inputfield">
           <label for="exampleInputEmail1">Password</label>
-          <input type="password" class="input" placeholder="Password" name="password" required>
+          <input type="password" class="input" placeholder="Password" name="PASS_WORD" required>
        </div>  
       
       <div class="inputfield">
-        <input type="submit" value="Register" class="btn">
+        <input type="submit" value="LOG IN" class="btn">
       </div>
       <p class="alter" >Not a Member?  <a class= "login"  href="registration.php"> Register now! </a></p>
+      
       
     </div> 
     

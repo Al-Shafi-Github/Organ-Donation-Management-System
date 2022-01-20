@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Registration</title>
-    <link rel="shortcut icon" href="images/oneblood.png">
+    
     
 </head>
 <body>
@@ -28,22 +28,22 @@
     </div>
     <div class="form">
        <div class="inputfield">
-          <label>First Name</label>
-          <input type="text" class="input" required>
+          <label for="firstname">First Name</label>
+          <input type="text" class="input" required id ="firstname"  name="FIRST_NAME">
        </div>
         <div class="inputfield">
-          <label>Last Name</label>
-          <input type="text" class="input" required>
+          <label for="lastname">Last Name</label>
+          <input type="text" class="input"  id="lastname"   name="LAST_NAME" required>
        </div>  
 
        <div class="inputfield">
-        <label>Date of Birth</label>
-        <input type="date" class="input" required>
+        <label for="dateofbirth" >Date of Birth</label>
+        <input type="date" class="input" id ="dateofbirth" name="dateofbirth" required>
        </div>
        <div class="inputfield">
-          <label>Blood Group</label>
+          <label for="blood-select" >Blood Group</label>
           <div class="custom_select">
-            <select required>
+            <select name=" BLOOD_GROUPr" id="blood-select" required>
               <option value="">Select</option>
               <option value="A+">A+</option>
               <option value="A-">A-</option>
@@ -57,44 +57,45 @@
           </div>
        </div> 
        <div class="inputfield">
-          <label>Gender</label>
+          <label for="gender-select">Gender</label>
           <div class="custom_select" required> 
-            <select required>
-              <option value="">Select</option>
-              <option value="male">Male</option>
-              <option value="female">Female</option>
+            <select name="Gender" id="gender-select" required>
+              <option value="" >Select</option>
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
               <option value="Other">Other</option>
             </select>
           </div>
        </div> 
        <div class="inputfield">
-          <label>Email Address</label>
-          <input type="text" class="input" required>
+          <label  for="email">Email Address</label>
+          <input type="email" class="input"  id ="email" name="EMAIL" required>
        </div> 
        <div class="inputfield">
-          <label>Password</label>
-          <input type="password" class="input" required>
-       </div>  
+          <label  for="password">Password</label>
+          <input type="password" class="input" id ="password" name="PASS_WORD"  required>
+       </div> 
+
       <div class="inputfield">
-          <label>Confirm Password</label>
-          <input type="password" class="input" required>
+          <label for="confirm_password">Confirm Password</label>
+          <input type="password" class="input" id ="confirm_password"  name="confirm_password" required>
        </div>
 
       <div class="inputfield">
-          <label>Phone Number</label>
-          <input type="text" class="input" required>
+          <label  for="phoneR">Phone Number</label>
+          <input type="text" class="input" id ="phoneR"  name="phoneR" required>
        </div> 
        <div class="inputfield">
-          <label>District</label>
-          <input type="text" class="input" required>
+          <label for="ADD_RESSr">Address</label>
+          <input type="text" class="input" id ="ADD_RESSr" name="ADD_RESSr"  required>
        </div> 
       <div class="inputfield">
-          <label>Zip Code</label>
-          <input type="text" class="input" required>
+          <label for="zipcode">Zip Code</label>
+          <input type="text" class="input" id= "zipcode"  name="ZIP_CODE" required>
        </div> 
       <div class="inputfield terms">
-          <label class="check">
-            <input type="checkbox" required>
+          <label  for="checkbox" class="check">
+            <input type="checkbox"  id= "checkbox"  required>
             <span class="checkmark"></span>
           </label>
           <p>Agreed to terms and conditions</p>

@@ -6,10 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Organ Donation Sytem</title>
-  <link rel="shortcut icon" href="images/oneblood.png">  <!-- Icon needed -->
+                                                         <!-- Icon needed -->
   <link rel="stylesheet" href="css/style.css">
-   <!-- <link rel= "stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
- integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+  
+ 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     
@@ -17,15 +17,15 @@
 
 <body>
 
-  <header>
+  <header class="sticky-top">
    <a href="#" class="brand">Organ Donation</a>
                                           
-    <div class="navigation">              <!--Edited needed -->
+    <div class="navigation">              
       <div class="navigation-items">
         <a href="#">Home</a>
         <a href="#">Our Vision</a>
         <a href="login.php">Donate Organ</a>
-        <a href="FAQs.php">FAQ's</a>
+        <a href="FAQ.php">FAQ's</a>
         <a href="#">Contact</a>
       </div>
     </div>
@@ -176,7 +176,7 @@
         <div class="card-text card_1">
         
           <h2>Request for Organ</h2>
-          <div class="value"><a href="login.php"  rel="noopener noreferrer">Submit</a></div>
+          <div class="value"><a href="login.php"  rel="noopener noreferrer">Request</a></div>
 
 
         </div>
@@ -187,7 +187,7 @@
         <div class="card-image card-2"></div>
          <div class="card-text card_2">
           <h2>Donate A Organ</h2>
-          <div class="value"><a href="login.php"  rel="noopener noreferrer">Submit</a></div>
+          <div class="value"><a href="login.php"  rel="noopener noreferrer">Donate</a></div>
          </div>
         </div>
       </div>
@@ -198,7 +198,7 @@
         <div class="card-image card-3"></div>
          <div class="card-text card_3">
           <h2>Donation Record</h2>
-          <div class="value"><a href="login.php"  rel="noopener noreferrer">Submit</a></div>
+          <div class="value"><a href="login.php"  rel="noopener noreferrer">Record</a></div>
          </div>
         </div>
       </div>
@@ -290,45 +290,6 @@
     </style>
   </section>
 
-  <script type="text/javascript">
-    //Javacript for responsive navigation menu
-    const menuBtn = document.querySelector(".menu-btn");
-    const navigation = document.querySelector(".navigation");
-
-    menuBtn.addEventListener("click", () => {
-      menuBtn.classList.toggle("active");
-      navigation.classList.toggle("active");
-    });
-
-    //Javacript for video slider navigation
-    const btns = document.querySelectorAll(".nav-btn");
-    const slides = document.querySelectorAll(".video-slide");
-    const contents = document.querySelectorAll(".content");
-
-    var sliderNav = function(manual) {
-      btns.forEach((btn) => {
-        btn.classList.remove("active");
-      });
-
-      slides.forEach((slide) => {
-        slide.classList.remove("active");
-      });
-
-      contents.forEach((content) => {
-        content.classList.remove("active");
-      });
-
-      btns[manual].classList.add("active");
-      slides[manual].classList.add("active");
-      contents[manual].classList.add("active");
-    }
-
-    btns.forEach((btn, i) => {
-      btn.addEventListener("click", () => {
-        sliderNav(i);
-      });
-    });
-  </script>
 
 
 </body>
