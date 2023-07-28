@@ -12,7 +12,7 @@ Organ Donation is a modern management system that aims to connect hospitals and 
 
 
 <h2>Features</h2>
-<ul>
+c
   <li>Email Verification: The system implements email verification to ensure the authenticity of donors and hospitals, creating a secure and reliable platform.</li>
   <li>Session and Cookies: To enhance user experience and security, the system leverages the use of sessions and cookies to manage user data and preferences.</li>
   <li>Advanced Search Functionality: The platform provides advanced search functionality using filters to help hospitals find donors based on specific criteria such as 
@@ -22,16 +22,17 @@ Organ Donation is a modern management system that aims to connect hospitals and 
   </li>
   </ul>
 <h2>Technology Used</h2>
-  Front-end: HTML, CSS, Bootstrap, JavaScript, Jquery
-  Back-end: PHP
-  Database: MySQL
-
+<ul>
+  <li>Front-end: HTML, CSS, Bootstrap, JavaScript, Jquery </li>
+  <li>Back-end: PHP </li>
+  <li>Database: MySQ L</li>
+ </ul>
 <h2>Installation</h2>
-1. Clone the repository: git clone https://github.com/your-username/organ-donation.git
-2. Import the database schema using database.sql file.
-3. Configure the database connection in config.php.
-4. Deploy the project on a PHP-enabled web server.
-5. 
+1. Clone the repository: git clone https://github.com/your-username/organ-donation.git <br>
+2. Import the database schema using database.sql file. <br>
+3. Configure the database connection in config.php. <br>
+4. Deploy the project on a PHP-enabled web server. <br>
+
 
 
 <h2>Contact</h2>
