@@ -25,7 +25,7 @@ c
 <ul>
   <li>Front-end: HTML, CSS, Bootstrap, JavaScript, Jquery </li>
   <li>Back-end: PHP </li>
-  <li>Database: MySQ L</li>
+  <li>Database: MySQL</li>
  </ul>
 <h2>Installation</h2>
 1. Clone the repository: git clone https://github.com/your-username/organ-donation.git <br>
