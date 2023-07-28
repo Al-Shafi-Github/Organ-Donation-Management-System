@@ -3,6 +3,9 @@
 <img src= "https://github.com/Al-Shafi-Github/Organ-Donation-Management-System/assets/68460013/0862ba26-c16f-462f-824a-1d8564592bf6" alt= "Index">
 <img src= "https://github.com/Al-Shafi-Github/Organ-Donation-Management-System/assets/68460013/67f33c41-06b6-4a6b-8351-3bd5d8f4e92c" alt= "Index">
 
+<img src= "https://github.com/Al-Shafi-Github/Organ-Donation-Management-System/assets/68460013/acb53bbd-1ad5-41b1-ae7c-9f2c2baebc60" alt= "Login">
+
+
 
 <h2>Introduction</h2>
 Organ Donation is a modern management system that aims to connect hospitals and donors under the same shade. The system is designed to streamline the process of organ donation, making it easier for hospitals to find suitable donors and for donors to offer their organs to those in need. This full-stack website is built using PHP, JavaScript, MySQL, and Bootstrap, ensuring a user-friendly and responsive interface.
@@ -23,13 +26,19 @@ Organ Donation is a modern management system that aims to connect hospitals and 
   Back-end: PHP
   Database: MySQL
 
-Installation
+<h2>Installation</h2>
+1. Clone the repository: git clone https://github.com/your-username/organ-donation.git
+2. Import the database schema using database.sql file.
+3. Configure the database connection in config.php.
+4. Deploy the project on a PHP-enabled web server.
+5. 
 
 
+<h2>Contact</h2>
+If you have any questions or suggestions regarding the project, please feel free to reach out to us:
 
-
-
-
+Email: abdullah.shafi1191@gmail.com
+LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/abdullah-al-shafi200/)https://www.linkedin.com/in/abdullah-al-shafi200/
 
 
 
